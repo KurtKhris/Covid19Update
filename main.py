@@ -14,7 +14,7 @@ pathoftheimage = 'C:/Users/kurtk/OneDrive/Desktop/DontOpen/Python/Projects/Covid
 
 #initializing tkinter
 window = Tk()
-window.geometry("350x450")
+window.geometry("350x470")
 window.config(bg="#416C7B")
 window.title("Covid-19 Update Based on Countries")
 icon = PhotoImage(file='C:/Users/kurtk/OneDrive/Desktop/DontOpen/Python/Projects/Covid19Update/image.png')
@@ -101,6 +101,10 @@ data.set("")
 
 entryField = Entry(window, textvariable=data, width=50).pack()
 Button(window, text="Get Data", cursor="hand2",bg="blue", fg="white",  command=getCovidData).pack()
+
+space = Label(window,text="",font=('Comic Sans MS', 15, "bold" ),bg="#416C7B").pack()
+
+devName = Label(window,text="Copyright © 2021 Edem", fg="white",bg="#416C7B", font=("Comic Sans MS",10,"bold")).pack()
     
 
 window.mainloop()
