@@ -1,0 +1,5 @@
+
+tk==0.1.0
+covid==2.4.0
+matplotlib==3.4.1
+Pillow==8.1.0
